@@ -28,3 +28,4 @@ fp-info-cache
 
 # Lock files (for multi-user environments)
 *.lck
+\*-backups

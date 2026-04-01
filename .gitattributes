@@ -1,0 +1,16 @@
+# Set default behavior to automatic text detection
+* text=auto
+
+# Force LF line endings for library and design files
+*.kicad_sym  text eol=lf
+*.kicad_mod  text eol=lf
+*.kicad_pcb  text eol=lf
+*.kicad_sch  text eol=lf
+*.kicad_pro  text eol=lf
+
+# Explicitly mark binary assets to prevent corruption
+*.png   binary
+*.step  binary
+*.stp   binary
+*.pdf   binary
+*.wrl   -diff
